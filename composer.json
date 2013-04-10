@@ -1,0 +1,24 @@
+{
+    "name": "ngyuki/php-ddns",
+    "type": "library",
+    "description": "php-ddns",
+    "keywords": [],
+    "homepage": "https://github.com/ngyuki/php-ddns",
+    "license": "MIT",
+    "authors": [
+        { "name": "Toshiyuki Goto", "email": "ngyuki.ts@gmail.com" }
+    ],
+    "repositories": [
+        { "packagist": false },
+        { "type": "pear", "url": "http://pear.php.net" }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "pear-pear/Net_DNS": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ngyuki\\DynamicDNS": "src/"
+        }
+    }
+}
